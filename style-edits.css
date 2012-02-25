@@ -1,0 +1,570 @@
+body {
+	background:black url(images/sentm_bg_new.jpg) no-repeat top center fixed;
+	font-size:13px;
+}
+#wrap {
+	border:0px solid #ccc;
+	padding: 0px 15px;
+}
+#outer {
+	clear: both;
+	width: 990px;
+	margin: 0 auto;
+	padding:0 0;
+}
+h2.home-list{
+	padding-bottom:7px;
+}
+.entry .post_image{
+	padding-bottom:7px;
+}	
+.corner{display:block}
+.corner *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#ffffff}
+.corner1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #6d6d6d;
+  border-right:1px solid #6d6d6d;
+  background:#bfbfbf}
+.corner2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #191919;
+  border-right:1px solid #191919;
+  background:#cecece}
+.corner3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #cecece;
+  border-right:1px solid #cecece;}
+.corner4{
+  border-left:1px solid #6d6d6d;
+  border-right:1px solid #6d6d6d}
+.corner5{
+  border-left:1px solid #bfbfbf;
+  border-right:1px solid #bfbfbf}
+.cornerfg{
+  background:#ffffff}
+
+#header .sitehead{
+	height: 140px;
+	width: 780px;
+	/* works in ff but not IE margin-left:200px;*/
+	margin-left:180px;
+}
+#header .header_artist_banners{
+	height: 140px;
+	float:left;
+	background: #000;
+	
+}
+
+#header .sitehead-bg1 {
+  background: url(images/header_1.jpg) top left no-repeat;
+}
+#header .sitehead-bg2 {
+  background: url(images/header_2.jpg) top left no-repeat;
+}
+#header .sitehead-bg3 {
+  background: url(images/header_3.jpg) top left no-repeat;
+}
+#header .sitehead-bg4 {
+  background: url(images/header_4.jpg) top left no-repeat;
+}
+#header .sitehead-bg5 {
+  background: url(images/header_5.jpg) top left no-repeat;
+}
+#header .sitehead-bg6 {
+  background: url(images/header_6.jpg) top left no-repeat;
+}
+#header .sitehead-bg7 {
+  background: url(images/header_7.jpg) top left no-repeat;
+}
+#header .sitehead-bg8 {
+  background: url(images/header_8.jpg) top left no-repeat;
+}
+#header .sitehead-bg9 {
+  background: url(images/header_9.jpg) top left no-repeat;
+}
+#header .sitehead-bg10 {
+  background: url(images/header_10.jpg) top left no-repeat;
+}
+#header .sitehead-bg11 {
+  background: url(images/header_11.jpg) top left no-repeat;
+}
+#header .sitehead-bg12 {
+  background: url(images/header_12.jpg) top left no-repeat;
+}
+#header .sitehead-bg13 {
+  background: url(images/header_13.jpg) top left no-repeat;
+}
+#header .sitehead-bg14 {
+  background: url(images/header_14.jpg) top left no-repeat;
+}
+#header .sitehead-bg-cmj {
+  background: url(images/header_cmj_marathon.jpg) top left no-repeat;
+}
+
+#header .sitehead-left p {
+  display: none;
+}
+  
+#header .sitehead-left {
+  display: block;
+  height:150px;
+  /*width: 960px;*/
+  width:1400px;
+  margin:10px 0px 0px 0px;
+  }
+  
+#header h1{
+	float:left;
+	background: url(images/logo.png) no-repeat;
+	height:150px;
+	width:180px;
+} 
+#header .sitehead-left h1 a {
+  display: block;
+  height:140px;
+  width: 180px;
+  background:transparent;
+}
+#header .sitehead-left a:hover, #header .sitehead-left a:active {
+/*  background: transparent;*/
+}
+
+#header .sitehead-left a span {
+  display: none;
+  height:150px;
+}
+
+#nav ul{
+	z-index:20;
+}
+#nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#nav li.rss a, #nav li.rss a:visited, #nav li.rss a:link {
+	padding-left:21px;
+	background:url(images/rss-sm.gif) 7px 9px no-repeat;
+	}
+#nav li.rss a:hover, #nav li.rss a:active {
+	background:#000 url(images/rss-sm-hover.gif) 7px 9px no-repeat;;
+	color:#3399CC;
+	}
+
+
+		  
+#nav .searchnav {
+  width: 180px;
+  float: right;
+  white-space: nowrap;
+}
+	
+
+#searchform #s {
+        width: 130px;
+	margin-right: 2px;
+	}
+
+#searchform #submit-2 {
+        width: 35px;
+	margin-right: 0;
+	}
+
+.banner160 {
+	text-align:center;
+	margin: 0 auto;
+	padding:0 8px;
+	float: left;
+	}
+	
+.banner640 {
+	border:1px solid #ddd;
+	margin: 4px auto;
+	padding: 1px;
+	width: 640px;
+	height: 80px;
+	}
+
+
+		
+#sidebar li#linkcat-2 {
+	border:1px solid #ddd;
+	background:#fff;
+	padding:1px 1px 0;
+	}
+
+#sidebar li#linkcat-2 h2 {
+	border:0;
+	font-size:9pt;
+	letter-spacing:0px;
+	border-bottom:1px solid #fff;
+	padding:5px 10px;
+	margin:0;
+	color:#000;
+	background:#ccc;
+	}
+
+#sidebar li#linkcat-2 li {
+	margin:0;
+	background:#eee;
+	padding:5px 10px;
+	border-bottom:1px solid #fff;
+	}
+	
+.coverimage
+{
+  display: block;
+  height:220px;
+  width: 170px;
+  margin: 0;
+  padding: 1px;
+  float: left;
+  border: 1px solid #ddd;
+  }
+.coverimage h2
+{ 
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.coverimage h2 a
+{
+  display: block;
+  height:220px;
+  width: 170px;
+}
+.coverimage h2 a span
+{
+  display: none;
+}
+
+.coverimage h2 a
+{
+  background: url(images/current_issue.jpg) top left no-repeat;
+}
+.coverimage.cover2 h2 a
+{
+  background: url(images/current_issue.jpg) top left no-repeat;
+}
+.coverimage.cover3 h2 a
+{
+  background: url(images/current_issueB.jpg) top left no-repeat;
+}
+.coverimage.cover4 h2 a
+{
+  background: url(images/current_issueB.jpg) top left no-repeat;
+}
+
+#my-glider {
+	float: right;
+	height: 
+}
+#my-glider, #my-glider .scroller, #my-glider .scroller .section {
+	width: 650px;
+}
+#my-glider, #my-glider .scroller, #my-glider .scroller .section .feature-entry-image{
+	float:left;
+	margin-left:-10px;
+	padding-right:10px;
+	/*width:300px;*/
+}
+#my-glider, #my-glider .scroller, #my-glider .scroller .section .feature-entry{
+	/*width:600px;*/
+}
+#my-glider, #my-glider .scroller, #my-glider .scroller .section img.feature-photo{
+	float:left;
+	margin-left:0px;
+	padding-right:10px;
+}
+#my-glider .controls
+{
+	width: 650px;
+}
+#my-glider .scroller,#my-glider .scroller .section {	
+	height: 214;
+}
+
+#my-glider .feature-entry h2 {
+	font-size:14pt;
+	} 
+
+table#wp-calendar td, table#wp-calendar th
+{
+	margin: 0;
+	padding: 3px;
+}
+table#wp-calendar td
+{
+	color: #ccc;
+}
+
+.home-post-list-1 {
+	width: 315px;
+	float: left;
+	}
+	
+.home-post-list-1a {
+	width:350px;
+}
+.home-post-list-1b {
+	float: right;
+	
+	}
+
+.home-post-list-1.narrowlist {
+	width:143px;
+	margin: 0 0 0 16px;
+}
+
+.home-post-list-1.narrowlist img.post-thum {
+	float:none;
+	margin: 8px 8px;
+	}
+
+body, h1, h2, h3, h4, h5, h6, h7, h2.home-list, #my-glider .feature-entry h3 {
+	font-family: arial,helvetica,lucinda,verdana,geneva,sans-serif;
+}
+.related h3 {
+	font-family: arial,helvetica,lucinda,verdana,geneva,sans-serif;
+}
+			
+.leaderimage { float: left; padding: 0em 1em; }
+
+
+#sidebar li.widget_text {
+	border:1px solid #ddd;
+	background:#fff;
+	padding:1px 1px 0;
+	}
+
+#sidebar li.widget_text h2 {
+	border:0;
+	font-size:9pt;
+	letter-spacing:0px;
+	border-bottom:1px solid #fff;
+	padding:5px 10px;
+	margin:0;
+	color:#000;
+	background:#ccc;
+	}
+
+#sidebar li.widget_text li {
+	margin:0;
+	background:#eee;
+	padding:5px 10px;
+	border-bottom:1px solid #fff;
+	}
+
+
+ul.ilsb-menu a {
+        background-color: #fff;
+	}
+	
+ul.ilsb-menu ul a {
+        background-color: #f4f4f4;
+	}
+	
+a.ilsb:hover, a.ilsb:active {
+	color:#a00;
+	text-decoration:underline;
+	}
+	
+p#respondsub {
+	font-size:10pt;
+	margin: 0 !important;
+	padding: 8px;
+	background:#eee;
+	border:0;
+        }
+/* twitter widget */
+#sidebar li.widget_Twidget h2 {
+	border:0;
+	font-size:9pt;
+	letter-spacing:0px;
+	border-bottom:1px solid #fff;
+	margin:0;
+	color:#000;
+	padding-bottom:0px;
+	}
+#sidebar li.widget_Twidget a,a:active{
+	background: none;
+}
+#sidebar ul#twitter_update_list li {
+	margin:0;
+	background:#eee;
+	padding:5px 10px;
+	border-bottom:1px solid #fff;
+	}
+
+#sidebar li#twitter
+{
+   background:#FFFFFF none repeat scroll 0;
+   border:1px solid #DDDDDD;
+   padding:1px 1px 0;
+}
+
+/* /end twitter widget */
+
+/* flickr widget */
+#sidebar li.tantanflickrwidget_display h2 {
+	border:0;
+	font-size:9pt;
+	letter-spacing:0px;
+	border-bottom:1px solid #fff;
+	padding:5px 10px;
+	margin:0;
+	color:#000;
+	background:#ccc;
+	}
+
+#sidebar li#flickr-sidebar
+{
+   background:#FFFFFF none repeat scroll 0;
+   border:1px solid #DDDDDD;
+   padding:1px 1px 0;
+}
+#sidebar li#flickr-sidebar img
+{
+   padding-top:3px;
+   padding-bottom:3px;
+   padding-left: 5px;
+   
+
+}
+/* /end flickr widget */
+
+/* left align images in the articles and add a nice border 
+*/
+
+.singlepost .entry img
+{
+    border: 1px solid #ccc;
+    padding:10px;
+    margin: 5px;
+}
+.singlepost .entry .alignleft{
+	float:left;	
+}
+.slug a:visited,
+.slug a:active,
+.slug a:link{
+	font-weight:bold;
+	font-size:9px;
+	text-transform:uppercase;
+}
+
+/* sentimentalist most popular  */
+.tabberlive .tabbertab ul.pop li{
+ 	height:105px;
+	
+}
+.header_most_popular{
+	padding_bottom:15px;
+}
+.header_most_popular ul div{
+	float:left;
+	width:180px;
+	padding-left:5px;
+}
+.header_most_popular a:active,
+.header_most_popular a:visited,
+.header_most_popular a:link{
+	color:#000;
+}
+.header_most_popular a:hover{
+	/*text-decoration:underline;*/
+	
+}
+.header_most_popular a:hover div{
+	background:#eee;
+}
+#leaderboard_ad{
+	padding: 10px 0px 10px 150px;
+	background-color: #EEE;
+	margin-top: 5px;
+}
+.tags{
+	width:550px;
+}
+.pullquote{
+	font-size:25px;
+	line-height:25px;
+}
+	.pullquote .left{
+	  background: url('images/PullQuoteLeft.png') no-repeat;
+	  padding-right:30px;
+	  width:40px;
+	}
+	
+	.pullquote .right{
+	  background: url('images/PullQuoteRight.png') no-repeat;
+	  padding-left:30px;
+	  width:40px;
+	}
+ul li.featured_category
+{
+	background-color: #88AA33;
+}
+
+img.post-image{
+	width:300px;
+}
+li.top_menu_highlight{
+	background-color: #90a9cf;
+}
+div.clear{
+	clear:both;
+}
+#sidebar .tags{
+	width:300px;
+}
+a.external{
+	background: url(http://www.sentimentalistmag.com/blog/wp-content/themes/WP-MagTheme10-Basic/images/external-link-ltr-icon.png?2) no-repeat 100% 50%;
+	padding: 0px 13px 0px 0px;
+}
+/* new image layout for the caption images */
+.wp-caption {
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding-top: 4px;
+    margin: 10px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.wp-caption img {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: 0px none !important;
+}
+
+.wp-caption p{
+    font-size: 11px;
+    line-height: 17px;
+    padding: 0 4px 5px;
+    margin: 0;
+}
+.singlepost .post .post_title{
+	padding-bottom:5px;
+	
+}
+/*.entry a, a:link, a:visited{
+	font-style:italic;	
+}*/
